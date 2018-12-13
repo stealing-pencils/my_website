@@ -1,19 +1,50 @@
+
 .App {
-  text-align: center;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 130px 90px 1234px 100px;
+
+  grid-template-areas:
+  "h h h h"
+  "i i i i"
+  "p p p a"
+  "f f f f";
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
-.App-header {
+.header {
+  grid-area: h;
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.title-image {
+  grid-area: i;
+  min-height: 50vh;
+  background-color: #d3d3d3;
+}
+
+.about-column-right {
+  float: right;
+  grid-area: a;
+  background-color: orange;
+  min-width: 20vw;
+  min-height: 100vh;
+}
+
+.posts {
+  grid-area: p;
+  background-color: gray;
+}
+
+.footer {
+  grid-area: f;
+  background-color: black;
 }

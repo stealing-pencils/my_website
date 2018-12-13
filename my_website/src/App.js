@@ -5,11 +5,13 @@ class App extends Component {
   render() {
     return (
       <div className="App-container">
-        <header className="App-header">
-          <h1>
-          Stealing Pencils under construction
-          </h1>
-        </header>
+        <div className="header">
+          <header className="App-header">
+            <h1>
+            Stealing Pencils under construction
+            </h1>
+          </header>
+        </div>
         <body>
           <div className="title-image">
           </div>
@@ -23,11 +25,11 @@ class App extends Component {
             Here is my blog
             </h2>
             <div className="posts">
-              <h4>
-                <div className="post-title">
-                </div>
+              <h4 className="post-title">
+                Here is a post title
               </h4>
               <div className="post-text">
+              Here is post text
               </div>
             </div>
           </div>
