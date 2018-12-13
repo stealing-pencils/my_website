@@ -12,35 +12,36 @@ class App extends Component {
             </h1>
           </header>
         </div>
-        <body>
-          <div className="title-image">
-          </div>
-          <div className="about-column-right">
-            <h3>
-            About Me
-            </h3>
-          </div>
-          <div className="main-blog-container">
-            <h2>
-            Here is my blog
-            </h2>
-            <div className="posts">
-              <h4 className="post-title">
-                Here is a post title
-              </h4>
-              <div className="post-text">
-              Here is post text
-              </div>
+
+        <div className="title-image">
+        </div>
+        <div className="about-column-right">
+          <h3>
+          About Me
+          </h3>
+        </div>
+        <div className="main-blog-container">
+          <h2 className ="blog-title">
+          Here is my blog
+          </h2>
+          <div className="posts">
+            <h4 className="post-title">
+              Here is a post title
+            </h4>
+            <div className="post-text">
+            Here is post text
             </div>
           </div>
-        </body>
+        </div>
         <footer>
+          This is a footer
           <div className="social-media">
           </div>
           <div className="contact-details">
           </div>
         </footer>
       </div>
+
     );
   }
 }

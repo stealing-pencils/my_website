@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre|Source+Serif+Pro');
 
 
-body {
+.App-container {
   margin: 0;
   padding: 0;
   font-family: 'Source Serif Pro', serif;

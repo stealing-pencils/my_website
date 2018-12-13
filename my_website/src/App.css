@@ -1,9 +1,10 @@
 
-.App {
-  height: 100%;
+.App-container {
+  /* height: 100%; */
   display: grid;
+  min-height: 100%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 130px 90px 1234px 100px;
+  grid-template-rows: 250px 400px 1fr 100px;
 
   grid-template-areas:
   "h h h h"
@@ -16,7 +17,6 @@
 .header {
   grid-area: h;
   background-color: #282c34;
-  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,6 @@
 
 .title-image {
   grid-area: i;
-  min-height: 50vh;
   background-color: #d3d3d3;
 }
 
@@ -44,7 +43,7 @@
   background-color: gray;
 }
 
-.footer {
+footer {
   grid-area: f;
   background-color: black;
 }
