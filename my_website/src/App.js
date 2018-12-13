@@ -21,9 +21,11 @@ class App extends Component {
           </h3>
         </div>
         <div className="main-blog-container">
-          <h2 className ="blog-title">
-          Here is my blog
-          </h2>
+          <div className="blog-title">
+            <h2>
+            Here is my blog
+            </h2>
+          </div>
           <div className="posts">
             <h4 className="post-title">
               Here is a post title

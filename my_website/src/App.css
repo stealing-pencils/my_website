@@ -38,7 +38,7 @@
   min-height: 100vh;
 }
 
-.posts {
+.main-blog-container {
   grid-area: p;
   background-color: gray;
 }
