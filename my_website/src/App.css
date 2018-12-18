@@ -1,48 +1,75 @@
 
-.App-content {
-  display: grid;
-  min-height: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 250px 400px 1fr 100px;
 
-  grid-template-areas:
-  "h h h h"
-  "i i i i"
-  "p p p a"
-  "f f f f";
-}
+  .App-content {
+    display: grid;
+    min-height: 100%;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px 200px 1fr 100px;
 
-.header {
-  grid-area: h;
-  padding: 10px;
-  background-color: #282c34;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    grid-template-areas:
+    "h h h h"
+    "a a a a"
+    "b b b b"
+    "f f f f";
+  }
 
-.title-image {
-  grid-area: i;
-  background-color: #d3d3d3;
-}
+  .header {
+    grid-area: h;
+    padding: 5vh;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
 
-.about-column-right {
-  grid-area: a;
-  padding: 10px;
-  background-color: orange;
-  min-height: 100vh;
-}
+  .about-column-right {
+    grid-area: a;
+    padding: 10px;
+    background-color: orange;
+    min-height: 50vh;
+  }
 
-.main-blog-container {
-  grid-area: p;
-  padding: 10px;
-  background-color: gray;
-}
+  .main-blog-container {
+    grid-area: b;
+    /* padding: 10px; */
+    background-color: gray;
+  }
 
-footer {
-  grid-area: f;
-  padding: 10px;
-  background-color: black;
+  footer {
+    grid-area: f;
+    padding: 10px;
+    background-color: black;
+  }
+
+
+@media only screen and (min-width: 1024px) {
+
+  .App-content {
+    grid-template-rows: 250px 400px 1fr 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "h h h h"
+    "i i i i"
+    "b b b a"
+    "f f f f";
+  }
+
+  .header {
+    background-color: #282c34;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .title-image {
+    grid-area: i;
+    background-color: #d3d3d3;
+  }
+
 }
