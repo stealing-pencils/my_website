@@ -21,9 +21,11 @@
     white-space: pre-wrap;
     padding: 5vh;
     background-color: gray;
-    display: flex;
+    line-height: 40px;
+    /* display: flex; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-around;
     font-size: 20px;
     font-weight: 100;
     /* font-size: calc(20px + 3vmin); */
@@ -66,15 +68,13 @@
     "f f f f";
   }
 
-  .header {
-    background-color: #282c34;
-
+  /* .header {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  }
+  } */
 
   .title-image {
     grid-area: i;
