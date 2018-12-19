@@ -10,7 +10,7 @@ class App extends Component {
           <div className="header">
             <header className="App-header">
               <h1>
-              Stealing Pencils
+              {`Stealing \nPencils.`}
               </h1>
             </header>
           </div>
