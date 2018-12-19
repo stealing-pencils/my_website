@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Content from './Content.js'
 
 class App extends Component {
   render() {
@@ -20,21 +21,7 @@ class App extends Component {
             About Me
             </h3>
           </div>
-          <div className="main-blog-container">
-            <div className="blog-title">
-              <h2>
-              Here is my blog
-              </h2>
-            </div>
-            <div className="posts">
-              <h4 className="post-title">
-                Here is a post title
-              </h4>
-              <div className="post-text">
-              Here is post text
-              </div>
-            </div>
-          </div>
+          <Content/>
           <footer>
             This is a footer
             <div className="social-media">
