@@ -1,11 +1,8 @@
-/* import fonts from google fonts  */
-@import url('https://fonts.googleapis.com/css?family=Averia+Libre|Source+Serif+Pro');
-
 
 .App-container {
   margin: 0;
   padding: 5px;
-  font-family: 'Source Serif Pro', serif;
+  letter-spacing: 3px;
 }
 
 code {
