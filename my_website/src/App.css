@@ -1,6 +1,5 @@
 /* import fonts from google fonts  */
-@import url('https://fonts.googleapis.com/css?family=Loved+by+the+King');
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Codystar|VT323');
 
 
   .App-content {
@@ -9,7 +8,7 @@
     max-width: 100%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 250px 200px 1fr 100px;
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'VT323', monospace;
 
     grid-template-areas:
     "h h h h"
@@ -25,15 +24,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    font-family: 'Loved by the King', cursive;
+    font-size: calc(10px + 3vmin);
+    font-family: 'Codystar', cursive;
     letter-spacing: 5px;
     color: white;
   }
 
   .about-column-right {
     grid-area: a;
-    padding: 10px;
+    padding: 5vh;
     background-color: orange;
     min-height: 50vh;
   }
@@ -45,6 +44,8 @@
   }
 
   footer {
+    padding: 5vh;
+
     grid-area: f;
     padding: 10px;
     background-color: black;
