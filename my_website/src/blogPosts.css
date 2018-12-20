@@ -1,8 +1,8 @@
 .posts {
   display: grid;
-  min-height: 100%;
+  /* min-height: 100%; */
   max-width: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 1fr;
   font-family: 'Roboto Slab', serif;
 
@@ -10,7 +10,6 @@
   "t t t t"
   "p p p p";
 }
-
 
 .post-title {
   grid-area: t;
