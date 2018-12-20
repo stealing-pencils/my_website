@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Blog_posts from './Blog_posts.js'
 import './App.css';
 
 

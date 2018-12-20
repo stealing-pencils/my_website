@@ -1,13 +1,13 @@
 /* import fonts from google fonts  */
-@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|VT323');
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Roboto+Slab');
 
   .App-content {
     display: grid;
     min-height: 100%;
     max-width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 250px 200px 1fr 100px;
-    font-family: 'VT323', monospace;
+    grid-template-rows: 200px 250px 1fr 100px;
+    font-family: 'Roboto Slab', serif;
 
     grid-template-areas:
     "h h h h"
@@ -55,15 +55,20 @@
     background-color: black;
   }
 
+  .blog-title {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 20px;
+  }
+
 
 @media only screen and (min-width: 1024px) {
 
   .App-content {
-    grid-template-rows: 250px 400px 1fr 100px;
+    grid-template-rows: 200px 400px 1fr 100px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     "h h h h"
-    "i i i i"
+    "i i i a"
     "b b b a"
     "f f f f";
   }
