@@ -21,4 +21,7 @@
   grid-area: p;
   background-color: white;
   margin: 0;
+  white-space:normal;
+  font-size: calc(3px + 2vmin);
+  letter-spacing: 0;
 }

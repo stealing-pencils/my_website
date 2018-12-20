@@ -60,6 +60,12 @@
     font-size: 20px;
   }
 
+  .about-me-text {
+    white-space:normal;
+    font-size: calc(3px + 2vmin);
+    letter-spacing: 0;
+  }
+
 
 @media only screen and (min-width: 1024px) {
 
@@ -84,6 +90,10 @@
   .title-image {
     grid-area: i;
     background-color: #d3d3d3;
+  }
+
+  .about-me-text {
+    font-size: calc(1px + 2vmin);
   }
 
 }
