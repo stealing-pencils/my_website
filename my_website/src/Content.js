@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Blog_posts from './Blog_posts.js'
+import BlogPosts from './BlogPosts.js'
 import './App.css';
 
 
@@ -13,14 +13,7 @@ class Content extends Component {
           Here is my blog
           </h2>
         </div>
-        <div className="posts">
-          <h4 className="post-title">
-            Here is a post title
-          </h4>
-          <div className="post-text">
-          Here is post text
-          </div>
-        </div>
+        <BlogPosts/>
       </div>
     )
   }
