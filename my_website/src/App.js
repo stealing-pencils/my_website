@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Content from './Content.js'
+import header_image from './images/header_image.png'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             </header>
           </div>
           <div className="title-image">
+            <img className="pencil-banner" src={header_image} width="100%" height="160%" alt="pencils and memorabilia on table"/>
           </div>
           <div className="about-column-right">
             <h3 className="about-me-header">
