@@ -2,31 +2,61 @@
   display: grid;
   /* min-height: 100%; */
   max-width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2% 1fr 1fr 2% 1fr 1fr;
   font-family: 'Roboto Slab', serif;
+  overflow: scroll;
+  margin: 0;
 
   grid-template-areas:
-  "t t t t"
-  "i i i i"
-  "p p p p";
+  "t1"
+  "i1"
+  "p1"
+  "t2"
+  "i2"
+  "p2";
 }
 
-.post-title {
-  grid-area: t;
+.post-title-first {
+  grid-area: t1;
+}
+
+.post-image-first {
+  grid-area: i1;
+}
+
+.post-text-first {
+  grid-area: p1;
+}
+
+.post-title-second {
+  grid-area: t2;
+}
+
+.post-image-second {
+  grid-area: i2;
+}
+
+.post-text-second {
+  grid-area: p2;
+}
+
+
+.post-title-first, .post-title-second {
+  padding: 1.5% 0% 0% 1%;
   background-color: beige;
   margin: 0;
 }
 
-.post-image {
-  grid-area: i;
+.post-image-first, .post-image-second {
   margin: 0;
+  /* padding: 0%; */
 }
 
-.post-text {
-  grid-area: p;
+.post-text-first, .post-text-second {
   background-color: white;
-  margin: 0;
+  padding: 1.5% 0% 0% 1%;
+  /* margin: 0; */
   white-space:normal;
   font-size: calc(3px + 2vmin);
   letter-spacing: 0;
