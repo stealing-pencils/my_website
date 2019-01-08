@@ -13,7 +13,7 @@ class BlogPosts extends Component {
           Starting my new life
         </h4>
         <div className="post-image-first">
-          <img src={jan1st2019} width="100%" height="160%" alt="person standing on edge of cliff"/>
+          <img src={jan1st2019} alt="person standing on edge of cliff"/>
         </div>
         <div className="post-text-first">
         "hello"
@@ -22,7 +22,7 @@ class BlogPosts extends Component {
           post 2
         </h4>
         <div className="post-image-second">
-          <img className="jan2nd2019_image" src={jan2nd2019_image} width="100%" height="160%" alt="coffee cup"/>
+          <img className="jan2nd2019_image" src={jan2nd2019_image} alt="coffee cup"/>
         </div>
         <div className="post-text-second">
         "hi again"

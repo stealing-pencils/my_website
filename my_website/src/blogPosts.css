@@ -3,7 +3,7 @@
   /* min-height: 100%; */
   max-width: 100%;
   grid-template-columns: 1fr;
-  grid-template-rows: 2% 1fr 1fr 2% 1fr 1fr;
+  grid-template-rows: 5% 20% 1fr 5% 20% 1fr;
   font-family: 'Roboto Slab', serif;
   overflow: scroll;
   margin: 0;
@@ -55,10 +55,12 @@ img {
 
 .post-text-first, .post-text-second {
   background-color: white;
+  /* margin-top: 20%; */
+  margin: 20% 0% 5% 0%;
   padding: 1.5% 0% 0% 1%;
   /* margin: 0; */
   white-space:normal;
   font-size: calc(3px + 2vmin);
   letter-spacing: 0;
-  margin-bottom: 4%;
+  /* margin-bottom: 4%; */
 }
