@@ -41,16 +41,16 @@
   grid-area: p2;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
 
 .post-title-first, .post-title-second {
   padding: 1.5% 0% 0% 1%;
   background-color: beige;
   margin: 0;
-}
-
-.post-image-first, .post-image-second {
-  margin: 0;
-  /* padding: 0%; */
 }
 
 .post-text-first, .post-text-second {
