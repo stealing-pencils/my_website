@@ -3,7 +3,7 @@
   /* min-height: 100%; */
   max-width: 100%;
   grid-template-columns: 1fr;
-  grid-template-rows: 5% 20% 1fr 5% 20% 1fr;
+  grid-template-rows: 3% 1fr 1fr 3% 1fr 1fr;
   font-family: 'Roboto Slab', serif;
   overflow: scroll;
   margin: 0;
@@ -48,7 +48,7 @@ img {
 
 
 .post-title-first, .post-title-second {
-  padding: 2% 0% 5% 2%;
+  padding: 3% 0% 2% 2%;
   background-color: beige;
   margin: 0;
 }
@@ -56,7 +56,7 @@ img {
 .post-text-first, .post-text-second {
   background-color: white;
   /* margin-top: 20%; */
-  margin: 20% 0% 5% 0%;
+  margin: -1% 0% 5% 0%;
   padding: 1.5% 0% 0% 1%;
   /* margin: 0; */
   white-space:normal;
